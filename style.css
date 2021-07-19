@@ -2,33 +2,91 @@
 	padding: 0;
 	margin: 0;
 }
-
 body
 {
-	background-color: blue;
+	position: relative;
 	z-index: 0;
+	background: url(homefish-back.jpg) fixed center;
+	font-family: sans-serif;
+	color: white;
 }
 
-#menu {
-	padding-top: 10px;
-	background-color: blue;
+
+#back
+{
+	position: fixed;
+	background-color: black;
 	width: 100%;
-	height: 50px;
+	height: 100%;
+	opacity: 0.5;
+	z-index: 1;
+}
+#container
+{
+	width: 800px;
+	position: relative;
+	z-index: 3;
+	margin: 0 auto;
+}
+
+#menu
+{
 	text-align: center;
 }
 
-img {
-	margin: 0 auto;
-	width: 100px;
-	height: 100px;
+#logo
+{
+	float: left;
+	margin-bottom: 80px;
 }
 
-#conteudo
+#links
 {
-	margin: 0 auto 90px auto;
-	border-radius: 30px;
-	width: 800px;
-	height: 600px;
-	background-color: white;
+	float: right;
+	margin-top: 50px;
+}
+#links span
+{
+	margin-left: 30px;
+}
+#links span a
+{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 20px;
+}
+#links span a:hover
+{
+	text-decoration: underline;
+	font-size: 25px;
+	transition: 1s;
+}
 
+
+#texto
+{
+	margin-top: 90px;
+}
+
+#texto h1
+{
+	font-size: 3em;
+	margin-bottom: 20px;
+	width: 600px;
+}
+
+#texto h3
+{
+
+	margin-bottom: 40px;
+	width: 400px;
+	font-style: italic;
+}
+
+
+.clear
+{
+	clear: both;
 }
