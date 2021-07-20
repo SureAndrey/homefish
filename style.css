@@ -45,6 +45,7 @@ body
 #logo img{
 	width: 100px;
 }
+
 #links2{
 	position: relative;
 	top: -33px;
@@ -89,9 +90,10 @@ body
 	width: 560px;
 	background: rgba( 255, 255, 255, 0.15 );
 	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-	backdrop-filter: blur( 7px );
-	-webkit-backdrop-filter: blur( 4px );
-	border-radius: 20px;
+	backdrop-filter: blur( 10.5px );
+	-webkit-backdrop-filter: blur( 10.5px );
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 #texto h1
@@ -129,6 +131,15 @@ input:hover
 	background-color: white;
 	color: black;
 	transition: 0.2s;
+}
+
+p{
+	font-size: 1.2em;
+	margin-top: 80px;
+	text-align: center;
+}
+p a{
+	color: white;
 }
 
 .clear
