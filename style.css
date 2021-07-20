@@ -183,12 +183,18 @@ input:hover
 	#texto h1
 	{
 		font-family: 'Montserrat', sans-serif;
-		font-size: 1em;
+		font-size: 1.8em;
 		letter-spacing: 2px;
 		margin-bottom: 10px;
 	}
+	#texto h2
+	{
+		font-size: 1.5em;
+	}
+
 	#texto h3
 	{
+		font-size: 1em;
 		font-weight: 400;
 		color: #E9E8E8;
 		margin-bottom: 40px;
